@@ -51,7 +51,7 @@
           h5.text-center Fortalecimiento de la transparencia
           p.text-center contribuye a garantizar que las operaciones financieras se realicen de forma clara, verificable y conforme a la normativa.
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-9
+      .col-lg-9.order-2.order-lg-1
         .row.align-items-center
           .col-lg-auto.d-none.d-lg-block
             figure
@@ -64,7 +64,7 @@
               img(src='@/assets/curso/temas/tema4/img8.svg', style="width:100px", alt='Texto que describa la imagen')
           .col-lg-9
             p.mb-0 Asimismo, la coordinación entre los diferentes organismos de control permite mejorar la efectividad de las estrategias de prevención y detección del lavado de activos y la financiación del terrorismo. La cooperación institucional facilita el intercambio de información, el desarrollo de investigaciones y la aplicación de sanciones cuando se identifican conductas que incumplen la normativa vigente.
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
               img(src='@/assets/curso/temas/tema4/img9.svg', width='180', alt='Texto que describa la imagen')
     .row.justify-content-center.align-items-center.mb-4
@@ -105,7 +105,7 @@
                   th Dirección de Impuestos y Aduanas Nacionales (DIAN)
                   td Controlar operaciones relacionadas con comercio exterior y posibles delitos financieros.
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema4/img11.png', width='180', alt='Texto que describa la imagen')
       .col-lg-9
@@ -153,7 +153,7 @@
         h2.text-center Análisis de información financiera
         p corresponde al estudio detallado de los reportes y datos suministrados por las entidades, permitiendo detectar operaciones inusuales o sospechosas relacionadas con el lavado de activos o la financiación del terrorismo.
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-9
+      .col-lg-9.order-2.order-lg-1
         p.mb-2 Los procesos descritos se desarrollan de manera articulada y permanente, configurando un sistema de supervisión que permite a la Superintendencia Financiera de Colombia identificar oportunamente situaciones de riesgo y adoptar las medidas correctivas necesarias para salvaguardar la integridad del sistema financiero.
         .row.align-items-center
           .col-lg-auto.d-none.d-lg-block
@@ -161,7 +161,7 @@
               img(src='@/assets/curso/temas/intro/img3.svg', style="width:100px", alt='Texto que describa la imagen')
           .col-lg-9
             p.mb-0 Junto a la Superintendencia Financiera, la Fiscalía General de la Nación cumple un rol determinante en la lucha contra el lavado de activos y la financiación del terrorismo, actuando desde el ámbito de la investigación y la judicialización de las conductas que vulneran el ordenamiento jurídico colombiano. Su intervención representa la instancia encargada de llevar ante la justicia a quienes incurren en estas conductas ilícitas.
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
               img(src='@/assets/curso/temas/tema2/img31.png', width='180', alt='Texto que describa la imagen')
     separador
@@ -172,7 +172,7 @@
       .col-lg-4.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema4/img17.png', width='180', alt='Texto que describa la imagen')
-      .col-lg-8.tarjeta.bt04.p-4
+      .col-lg-8.tarjeta.bt04.p-5
         .row
             .col-lg-auto.d-none.d-lg-block.mb-2
               figure
@@ -180,53 +180,54 @@
             .col-lg-12
               p.mb-0 En el contexto de la prevención y control del lavado de activos y la financiación del terrorismo, la Fiscalía General de la Nación cumple un papel fundamental en la investigación de las conductas relacionadas con estos delitos. A partir de la información suministrada por entidades como la Unidad de Información y Análisis Financiero (UIAF) y otros organismos de control, la Fiscalía puede iniciar procesos de investigación orientados a identificar a los responsables de estas actividades ilícitas.
     p.mb-4 Esta coordinación con instituciones nacionales e internacionales se materializa en acciones concretas que fortalecen los procesos de investigación frente a los delitos financieros, entre las cuales se destacan:
-    .row.justify-content-center.align-items-center.mb-4
+    .row.mb-4
       .col-lg-4
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema4/img19.svg' alt='AvatarTop')
-            .tarjeta.color-primario.w-100
+            .tarjeta.color-primario.w-100.h-100
               .p-4
-                h2.text-center Intercambio de información
+                h5.text-center Intercambio de información
                 p consiste en compartir datos relevantes con otros organismos de control, con el fin de construir evidencia sólida sobre posibles operaciones relacionadas con el lavado de activos o la financiación del terrorismo. 
       .col-lg-4
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema4/img20.svg' alt='AvatarTop')
-            .tarjeta.color-primario.w-100
+            .tarjeta.color-primario.w-100.h-100
               .p-4
-                h2.text-center Seguimiento de operaciones financieras
+                h5.text-center Seguimiento de operaciones financieras
                 p implica el monitoreo sistemático de transacciones y movimientos de recursos que presenten características inusuales o sospechosas dentro del sistema financiero.
       .col-lg-4
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema4/img21.svg' alt='AvatarTop')
-            .tarjeta.color-primario.w-100
+            .tarjeta.color-primario.w-100.h-100
               .p-4
-                h2.text-center Identificación de redes criminales
+                h5.text-center Identificación de redes criminales
                 p corresponde a la detección y análisis de estructuras organizadas que puedan estar vinculadas a actividades ilícitas relacionadas con el lavado de activos o la financiación del terrorismo.   
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-8
+      .col-lg-8.order-2.order-lg-1
         p Estas acciones, desarrolladas de forma coordinada con el sistema institucional de control, otorgan a la Fiscalía General de la Nación la capacidad de adelantar procesos judiciales contra personas o entidades responsables del lavado de activos y la financiación del terrorismo, contribuyendo a recuperar activos de origen ilícito y a fortalecer la respuesta del Estado frente a estos delitos.
-        .row.align-items-center.tarjeta.bt06.p-4
+        .row.align-items-center.bt02.p-4
           .col-lg-auto.d-none.d-lg-block
             figure
               img(src='@/assets/curso/temas/tema4/img22.svg', width='180', alt='Texto que describa la imagen')
           .col-lg-10
             p.mb-0 Otra entidad fundamental dentro del sistema de control es la Unidad de Información y Análisis Financiero (UIAF), organismo especializado en la recopilación, procesamiento y análisis de información financiera orientada a detectar operaciones sospechosas. Su función resulta clave porque alimenta con datos estratégicos la labor investigativa de las demás entidades del sistema.
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema4/img23.png', width='180', alt='Texto que describa la imagen')
     separador
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.3 Unidad de Información y Análisis Financiero (UIAF)
     .row.justify-content-center.align-items-center.mb-4
-        .col-lg-8.order-1.order-lg-2
-          p La Unidad de Información y Análisis Financiero (UIAF) es una entidad adscrita al Ministerio de Hacienda y Crédito Público de Colombia encargada de prevenir y detectar posibles operaciones relacionadas con el lavado de activos y la financiación del terrorismo. Su función principal consiste en recibir, analizar y procesar información financiera proveniente de diferentes entidades del sector financiero y de otros sectores económicos que están obligados a reportar determinadas operaciones.
-          .bt01.p-4
-            p.mb-0 Dentro del sistema de prevención del lavado de activos y financiación del terrorismo, la UIAF cumple un papel estratégico al centralizar la información reportada por las entidades vigiladas. A través del análisis de estos datos, la entidad puede identificar patrones de comportamiento financiero, detectar transacciones sospechosas y generar informes que contribuyan a la investigación de posibles actividades ilícitas.
-        .col-lg-4.col-8.mb-4.mb-lg-0.order-2.order-lg-1
+        .col-lg-4.col-8.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/temas/tema4/img24.svg', width='180', alt='Texto que describa la imagen')
+        .col-lg-8
+          p La Unidad de Información y Análisis Financiero (UIAF) es una entidad adscrita al Ministerio de Hacienda y Crédito Público de Colombia encargada de prevenir y detectar posibles operaciones relacionadas con el lavado de activos y la financiación del terrorismo. Su función principal consiste en recibir, analizar y procesar información financiera proveniente de diferentes entidades del sector financiero y de otros sectores económicos que están obligados a reportar determinadas operaciones.
+          .bt06.p-4
+            p.mb-0 Dentro del sistema de prevención del lavado de activos y financiación del terrorismo, la UIAF cumple un papel estratégico al centralizar la información reportada por las entidades vigiladas. A través del análisis de estos datos, la entidad puede identificar patrones de comportamiento financiero, detectar transacciones sospechosas y generar informes que contribuyan a la investigación de posibles actividades ilícitas.
+        
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-8
+      .col-lg-8.order-2.order-lg-1
         p.mb-2 Asimismo, la UIAF trabaja de manera coordinada con diferentes organismos de control y autoridades judiciales, como la Fiscalía General de la Nación, la Superintendencia Financiera de Colombia y otras entidades nacionales e internacionales. Esta cooperación institucional permite fortalecer los procesos de investigación y mejorar la capacidad del Estado para detectar y combatir actividades relacionadas con el lavado de activos y la financiación del terrorismo.
         .row.align-items-center
           .col-lg-auto.d-none.d-lg-block
@@ -234,11 +235,14 @@
               img(src='@/assets/curso/temas/intro/img3.svg', style="width:100px", alt='Texto que describa la imagen')
           .col-lg-9
             p.mb-0 La información procesada por la UIAF tiene un alcance que va más allá del análisis interno. Sus resultados se orientan hacia propósitos estratégicos fundamentales que fortalecen la capacidad del sistema de control frente al lavado de activos y la financiación del terrorismo, entre los cuales se destacan los siguientes:
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
               img(src='@/assets/curso/temas/tema4/img25.png', width='180', alt='Texto que describa la imagen')
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7.order-1.order-lg-2
+      .col-lg-3.col-8.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/temas/tema4/img26.png', alt='')
+      .col-lg-7
         LineaTiempoD.color-acento-botones
           .row(numero="1" titulo="Apoyo a investigaciones judiciales")
             p.mb-0 los informes generados por la UIAF sirven como insumo técnico para que las autoridades competentes adelanten procesos de investigación y judicialización frente a delitos financieros. 
@@ -248,9 +252,7 @@
             p.mb-0 el estudio sistemático de la información reportada posibilita identificar estructuras y redes que operan de manera encubierta dentro del sistema económico colombiano. 
           .row(numero="4" titulo="Fortalecimiento de la transparencia")
             p.mb-0 la labor analítica de la UIAF contribuye a garantizar que las operaciones económicas se realicen de manera clara, verificable y conforme a la normativa vigente.
-      .col-lg-3.col-8.mb-4.mb-lg-0.order-2.order-lg-1
-        figure
-          img(src='@/assets/curso/temas/tema4/img26.png', alt='')
+      
     p.mb-4 Los cuatro propósitos descritos consolidan a la UIAF como el centro de inteligencia financiera del sistema de control colombiano, cuya labor resulta indispensable para articular la información disponible y convertirla en herramientas concretas de prevención, investigación y sanción frente al lavado de activos y la financiación del terrorismo.
     .row.justify-content-center.align-items-center.mb-4.fondo-1
       .col-lg-4.mb-4.mb-lg-0
@@ -266,27 +268,29 @@
     separador
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.4 Unidad de Información y Análisis Financiero (UIAF)
-    .row.mb-4
-      .col-9
+    .row.justify-content-center.align-items-center.mb-4
+      .col-9.order-2.order-lg-1
         p Los organismos de control desempeñan un papel fundamental en la prevención y combate del lavado de activos y la financiación del terrorismo dentro del sistema financiero y empresarial. Estas entidades tienen la responsabilidad de supervisar el cumplimiento de la normativa vigente, investigar posibles actividades ilícitas y garantizar que las organizaciones implementen adecuadamente los mecanismos de prevención establecidos en el sistema SARLAFT.
-      .col-3
+        .bt01.p-4  
+          p.mb-0 En el marco del sistema de control del Estado, los organismos encargados de la supervisión y vigilancia desarrollan diferentes actividades orientadas a fortalecer la transparencia en las operaciones financieras. A través de procesos de inspección, monitoreo y análisis de información, estas entidades pueden identificar irregularidades, detectar riesgos asociados al lavado de activos y adoptar medidas que permitan prevenir el uso indebido del sistema financiero.
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema4/img31.png', alt='Ilustración de personas analizando datos financieros')
       
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-3.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema4/img29.svg', alt='Ilustración de personas analizando datos financieros')
       
-      .col-lg-8
-        p En el marco del sistema de control del Estado, los organismos encargados de la supervisión y vigilancia desarrollan diferentes actividades orientadas a fortalecer la transparencia en las operaciones financieras. A través de procesos de inspección, monitoreo y análisis de información, estas entidades pueden identificar irregularidades, detectar riesgos asociados al lavado de activos y adoptar medidas que permitan prevenir el uso indebido del sistema financiero.
-
-        .row.justify-content-center.align-items-center.p-3(style="background-color: #EEF3D1; border-radius: 10px;")
-          .col-lg-auto.d-none.d-lg-block
-            figure
-              img(src='@/assets/curso/temas/tema4/img30.svg', width='70', alt='Icono de cooperación global')
-          .col-lg
-            p.mb-0 Asimismo, los organismos de control trabajan de manera coordinada con diferentes instituciones nacionales e internacionales con el fin de fortalecer los procesos de investigación y sanción frente a delitos financieros. Esta cooperación institucional facilita el intercambio de información, el seguimiento de operaciones sospechosas y la identificación de redes criminales que puedan estar involucradas en actividades ilícitas.
+      .col-lg-9
+        p.mb-4 En el marco del sistema de control del Estado, los organismos encargados de la supervisión y vigilancia desarrollan diferentes actividades orientadas a fortalecer la transparencia en las operaciones financieras. A través de procesos de inspección, monitoreo y análisis de información, estas entidades pueden identificar irregularidades, detectar riesgos asociados al lavado de activos y adoptar medidas que permitan prevenir el uso indebido del sistema financiero.
+        .bt02.p-5
+          .row.justify-content-center.align-items-center
+            .col-lg-auto.d-none.d-lg-block
+              figure
+                img(src='@/assets/curso/temas/tema4/img30.svg', width='70', alt='Icono de cooperación global')
+            .col-lg
+              p.mb-0 Asimismo, los organismos de control trabajan de manera coordinada con diferentes instituciones nacionales e internacionales con el fin de fortalecer los procesos de investigación y sanción frente a delitos financieros. Esta cooperación institucional facilita el intercambio de información, el seguimiento de operaciones sospechosas y la identificación de redes criminales que puedan estar involucradas en actividades ilícitas.
 
     .row.align-items-center
       .col-lg-10
@@ -294,28 +298,28 @@
       .col-lg-auto.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/intro/img3.svg', width='180', alt='Texto que describa la imagen')
-    .row.justify-content-center.align-items-center.mb-4
+    .row.mb-4
       .col-lg-4
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema4/img19.svg' alt='AvatarTop')
-            .tarjeta.color-primario.w-100
+            .tarjeta.color-primario.w-100.h-100
               .p-4
-                h2.text-center A. Cumplimiento normativo
-                p garantiza que las entidades vigiladas apliquen correctamente las disposiciones del SARLAFT y demás normas relacionadas con la prevención del lavado de activos y la financiación del terrorismo. 
+                h5.text-center A. Cumplimiento normativo
+                p.mb-0 Garantiza que las entidades vigiladas apliquen correctamente las disposiciones del SARLAFT y demás normas relacionadas con la prevención del lavado de activos y la financiación del terrorismo. 
       .col-lg-4
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema4/img20.svg' alt='AvatarTop')
-            .tarjeta.color-primario.w-100
+            .tarjeta.color-primario.w-100.h-100
               .p-4
-                h2.text-center B. Lucha contra el crimen organizado
-                p contribuye a desarticular estructuras delictivas que intentan utilizar el sistema financiero para ocultar recursos de origen ilícito.
+                h5.text-center B. Lucha contra el crimen organizado
+                p.mb-0 Contribuye a desarticular estructuras delictivas que intentan utilizar el sistema financiero para ocultar recursos de origen ilícito.
       .col-lg-4
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema4/img21.svg' alt='AvatarTop')
-            .tarjeta.color-primario.w-100
+            .tarjeta.color-primario.w-100.h-100
               .p-4
-                h2.text-center C. Protección de la estabilidad económica
-                p salvaguarda la integridad del sistema financiero, previniendo que actividades ilícitas afecten la confianza institucional y el funcionamiento de los mercados.
+                h5.text-center C. Protección de la estabilidad económica
+                p.mb-0 Salvaguarda la integridad del sistema financiero, previniendo que actividades ilícitas afecten la confianza institucional y el funcionamiento de los mercados.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10 
         p Los tres efectos descritos evidencian que la labor de los organismos de control trasciende la simple verificación normativa, pues su actuación conjunta constituye un mecanismo integral de protección del sistema financiero colombiano frente a las amenazas del lavado de activos y la financiación del terrorismo.
@@ -347,7 +351,7 @@
                 i.fas.fa-lock(style="color: #CFDE90;")
                 | Fortalecer la cooperación institucional en la lucha contra el crimen financiero.
     .row.justify-content-center.align-items-center
-      .col-lg-4
+      .col-lg-4.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema4/img34.svg', width='180', alt='Texto que describa la imagen')     
       .col-lg-8       

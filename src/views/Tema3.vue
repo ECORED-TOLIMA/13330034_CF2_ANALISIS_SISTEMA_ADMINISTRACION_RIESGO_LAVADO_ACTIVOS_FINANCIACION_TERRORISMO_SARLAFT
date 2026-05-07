@@ -75,7 +75,7 @@
             .tarjeta.color-primario.rounded-0.p-4
               p.text-center.mb-0 El reporte de operaciones sospechosas permite alertar a las autoridades sobre transacciones que presentan comportamientos inusuales, facilitando su análisis y contribuyendo a la prevención de actividades ilícitas.
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0
         figure
               img(src='@/assets/curso/temas/tema3/img6.svg', width='180', alt='Texto que describa la imagen')
       .col-lg-9
@@ -141,7 +141,7 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.2 Reporte de transacciones en efectivo
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-9
+      .col-lg-9.order-2.order-lg-1
         p El reporte de transacciones en efectivo es un mecanismo de control utilizado dentro del sistema SARLAFT para registrar y reportar operaciones realizadas con dinero en efectivo que superan determinados montos establecidos por la normativa vigente. Este tipo de reporte permite a las entidades financieras y a las organizaciones vigiladas informar a las autoridades competentes sobre movimientos significativos de dinero en efectivo que podrían representar un riesgo relacionado con el lavado de activos o la financiación del terrorismo.
         .row.align-items-center.tarjeta.bt06.p-4
           .col-lg-auto.d-none.d-lg-block
@@ -149,7 +149,7 @@
               img(src='@/assets/curso/temas/tema3/img16.svg', width='180', alt='Texto que describa la imagen')
           .col-lg-10
             p.mb-0 Dentro del sistema financiero, las operaciones en efectivo pueden presentar mayores riesgos debido a que este tipo de transacciones dificulta el seguimiento del origen y destino de los recursos. Por esta razón, las autoridades regulatorias han establecido obligaciones para que las entidades registren y reporten este tipo de operaciones cuando superan ciertos límites definidos por la regulación.
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema3/img17.png', width='180', alt='Texto que describa la imagen')
     .row.align-items-center.mb-4
@@ -158,29 +158,45 @@
           img(src='@/assets/curso/temas/intro/img3.svg', width='180', alt='Texto que describa la imagen')
       .col-lg-10
         p.mb-0 El reporte de transacciones en efectivo permite a las autoridades contar con información relevante para el análisis de posibles actividades ilícitas dentro del sistema financiero. A través de estos reportes, entidades como la Unidad de Información y Análisis Financiero (UIAF) pueden identificar patrones de comportamiento como:
+    
     .row.justify-content-center.mb-4
-      .col-lg-2  
-        .tarjeta.bt09.p-4.h-100
-          img(src='@/assets/curso/temas/tema3/img18.svg', style="width:70px",  alt='Texto que describa la imagen')
+      .col-lg-2.col-8.mb-4.mb-lg-0
+        .tarjeta--boton.bt09.rounded-0.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema3/img18.svg', alt='Texto que describa la imagen')
           p.text-center #[b Movimientos inusuales]
-      .col-lg-2  
-        .tarjeta.bt09.p-4.h-100
-          img(src='@/assets/curso/temas/tema3/img19.svg', style="width:70px",  alt='Texto que describa la imagen')
+      .col-lg-2.col-8.mb-4.mb-lg-0  
+        .tarjeta--boton.bt09.rounded-0.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema3/img19.svg', style="width:70px",  alt='Texto que describa la imagen')
           p.text-center #[b Operaciones sospechosas]
-      .col-lg-2  
-        .tarjeta.bt09.p-4.h-100
-          img(src='@/assets/curso/temas/tema3/img20.svg', style="width:70px",  alt='Texto que describa la imagen')
+      .col-lg-2.col-8.mb-4.mb-lg-0 
+        .tarjeta--boton.bt09.rounded-0.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema3/img20.svg', style="width:70px",  alt='Texto que describa la imagen')
           p.text-center #[b Riesgos financieros]
-      .col-lg-2  
-        .tarjeta.bt09.p-4.h-100
-          img(src='@/assets/curso/temas/tema3/img21.svg', style="width:70px",  alt='Texto que describa la imagen')
+      .col-lg-2.col-8.mb-4.mb-lg-0  
+        .tarjeta--boton.bt09.rounded-0.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema3/img21.svg', style="width:70px",  alt='Texto que describa la imagen')
           p.text-center #[b Lavado de activos]
-      .col-lg-2  
-        .tarjeta.bt09.p-4.h-100
-          img(src='@/assets/curso/temas/tema3/img22.svg', style="width:70px",  alt='Texto que describa la imagen')
+      .col-lg-2.col-8.mb-4.mb-lg-0 
+        .tarjeta--boton.bt09.rounded-0.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema3/img22.svg', style="width:70px",  alt='Texto que describa la imagen')
           p.text-center #[b Financición del terrorismo]
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema3/img23.png', width='180', alt='Texto que describa la imagen')
       .col-lg-9
@@ -193,31 +209,34 @@
             ul.lista-ul
               li
                 i.fas.fa-lock(style="color: #CFDE90;")
-                | #[b Depósitos en efectivo:] operaciones que superan los montos establecidos por la normativa vigente. 
+                p.mb-0 #[b Depósitos en efectivo:] operaciones que superan los montos establecidos por la normativa vigente. 
               li
                 i.fas.fa-lock(style="color: #CFDE90;")
-                | #[b Retiros en efectivo:] extracciones de grandes cantidades de dinero realizadas en una sola o varias operaciones.
+                p.mb-0 #[b Retiros en efectivo:] extracciones de grandes cantidades de dinero realizadas en una sola o varias operaciones.
               li
                 i.fas.fa-lock(style="color: #CFDE90;")
-                | #[b Operaciones frecuentes:] transacciones en efectivo realizadas de manera repetitiva en un corto periodo de tiempo.
+                p.mb-0 #[b Operaciones frecuentes:] transacciones en efectivo realizadas de manera repetitiva en un corto periodo de tiempo.
               li
                 i.fas.fa-lock(style="color: #CFDE90;")
-                | #[b Depósitos de terceros:] consignaciones efectuadas por personas distintas al titular de la cuenta. 
+                p.mb-0 #[b Depósitos de terceros:] consignaciones efectuadas por personas distintas al titular de la cuenta. 
               li
                 i.fas.fa-lock(style="color: #CFDE90;")
-                | #[b Movimientos no justificados:] transacciones que no corresponden con la actividad económica del cliente.
+                p.mb-0 #[b Movimientos no justificados:] transacciones que no corresponden con la actividad económica del cliente.
               li
                 i.fas.fa-lock(style="color: #CFDE90;")
-                | #[b Fraccionamiento de operaciones:] división de depósitos en montos menores con el fin de evitar controles o reportes.
+                p.mb-0 #[b Fraccionamiento de operaciones:] división de depósitos en montos menores con el fin de evitar controles o reportes.
               li
                 i.fas.fa-lock(style="color: #CFDE90;")
-                | #[b Conversión de efectivo:] cambio de grandes cantidades de dinero en efectivo a otros instrumentos financieros.
+                p.mb-0 #[b Conversión de efectivo:] cambio de grandes cantidades de dinero en efectivo a otros instrumentos financieros.
     p El adecuado registro y reporte de estas transacciones en efectivo contribuye a la trazabilidad de los recursos dentro del sistema financiero y fortalece la capacidad de las autoridades para detectar posibles operaciones relacionadas con el lavado de activos. Este mecanismo se articula con otros procesos de control que permiten identificar patrones en la realización de múltiples transacciones por parte de un mismo cliente, lo cual facilita un análisis más integral de su comportamiento financiero.
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.3 Reporte de operaciones múltiples
     .row.justify-content-center.align-items-center.mb-4
-        .col-lg-8.order-1.order-lg-2
+        .col-lg-4.col-8.mb-4.mb-lg-0
+          figure
+              img(src='@/assets/curso/temas/tema3/img24.png', width='180', alt='Texto que describa la imagen')
+        .col-lg-8
           p El reporte de operaciones múltiples es un mecanismo de control utilizado dentro del sistema SARLAFT para identificar y registrar varias transacciones realizadas por un mismo cliente que, en conjunto, pueden representar un riesgo asociado al lavado de activos o la financiación del terrorismo. Este tipo de reporte se aplica cuando un cliente realiza varias operaciones individuales que, aunque por separado no superan los límites establecidos por la normativa, al sumarse alcanzan montos que requieren ser reportados a las autoridades competentes.
           .bt06.p-4
             .row
@@ -226,10 +245,9 @@
                   img(src='@/assets/curso/temas/tema3/img25.svg', style="width:100px", alt='Texto que describa la imagen')
               .col-lg-9
                 p.mb-0 En el contexto del sistema financiero, las operaciones múltiples pueden utilizarse como una estrategia para fragmentar grandes sumas de dinero en transacciones de menor valor con el objetivo de evadir controles establecidos por la normativa. Esta práctica, conocida como estructuración o fraccionamiento de operaciones, dificulta la identificación del origen de los recursos y puede representar un riesgo dentro del sistema financiero. El siguiente recurso interactivo muestra cómo se desarrolla este comportamiento:
-            
-        .col-lg-4.col-8.mb-4.mb-lg-0.order-2.order-lg-1
-          figure
-            img(src='@/assets/curso/temas/tema3/img24.png', width='180', alt='Texto que describa la imagen')
+        
+        
+          
     .row.justify-content-center.mb-4
       .col-lg-10
         .d-none.d-lg-block.mb-4
@@ -296,15 +314,15 @@
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.4 Importancia de los sistemas de reporte
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-9
+      .col-lg-9.order-2.order-lg-1
         p Los sistemas de reporte desempeñan un papel fundamental en la prevención del lavado de activos y la financiación del terrorismo dentro del sistema financiero y empresarial. A través de estos mecanismos, las organizaciones pueden informar a las autoridades competentes sobre operaciones que presentan características inusuales o sospechosas, contribuyendo así al fortalecimiento de los procesos de supervisión y control frente a posibles actividades ilícitas.
-        .row.align-items-center.tarjeta.bt06.p-4
+        .row.align-items-center.bt06.p-4
           .col-lg-auto.d-none.d-lg-block
             figure
               img(src='@/assets/curso/temas/tema3/img29.svg', width='180', alt='Texto que describa la imagen')
           .col-lg-10
             p.mb-0 En el marco del sistema SARLAFT, los sistemas de reporte permiten que las entidades vigiladas registren y transmitan información relevante relacionada con determinadas transacciones financieras. Esta información es analizada posteriormente por las autoridades competentes, como la Unidad de Información y Análisis Financiero (UIAF), con el fin de identificar patrones de comportamiento que puedan estar vinculados con actividades de lavado de activos o financiación del terrorismo.
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema3/img30.png', width='180', alt='Texto que describa la imagen')
     p.mb-4 La importancia de los sistemas de reporte se evidencia en distintos aspectos que contribuyen al fortalecimiento del control, la transparencia y el cumplimiento dentro del sistema financiero. A continuación, se presentan algunos de los principales elementos que explican su relevancia:
@@ -339,8 +357,8 @@
             .col-md-6.mb-4.mb-lg-0.order-1.order-lg-2
               figure
                 img(src='@/assets/curso/temas/tema3/img34.png', alt='Gráfico ilustrativo de uso de programa')
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3
+    .row.justify-content-center.align-items-center
+      .col-lg-3.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema3/img35.png', width='180', alt='Texto que describa la imagen')
       .col-lg-9

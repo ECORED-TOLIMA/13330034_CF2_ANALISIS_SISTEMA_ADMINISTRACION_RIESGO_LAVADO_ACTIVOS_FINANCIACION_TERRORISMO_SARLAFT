@@ -324,32 +324,32 @@
             .col-lg-12
               p.mb-0 En el contexto del sistema SARLAFT, las organizaciones que no implementan adecuadamente los mecanismos de prevención y control pueden enfrentar sanciones por parte de las autoridades de supervisión. Estas sanciones pueden incluir multas, restricciones operativas o medidas correctivas que obligan a la entidad a fortalecer sus procesos internos para garantizar el cumplimiento de la normativa vigente.
     p.mb-4 El deterioro de la imagen institucional derivado del incumplimiento de las normas LA/FT genera consecuencias concretas que afectan la sostenibilidad y competitividad de la organización en el mercado, entre las cuales se destacan las siguientes:
-    .row.justify-content-center.align-items-center.mb-4
+    .row.mb-4
       .col-lg-3
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema5/img32.svg' alt='AvatarTop')
-            .tarjeta.color-primario.w-100
+            .tarjeta.color-primario.w-100.h-100
               .p-4
                 h2.text-center Pérdida de clientes
                 p el involucramiento de una organización en investigaciones relacionadas con el lavado de activos genera desconfianza entre sus clientes actuales, quienes optan por trasladar sus operaciones a entidades con mayor solidez reputacional.
       .col-lg-3
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema5/img33.svg' alt='AvatarTop')
-            .tarjeta.color-primario.w-100
+            .tarjeta.color-primario.w-100.h-100
               .p-4
                 h2.text-center Reducción de oportunidades de negocio
                 p la vinculación con actividades ilícitas limita el acceso de la organización a nuevos mercados, licitaciones y alianzas estratégicas, restringiendo su capacidad de crecimiento y expansión comercial.
       .col-lg-3
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema5/img34.svg' alt='AvatarTop')
-            .tarjeta.color-primario.w-100
+            .tarjeta.color-primario.w-100.h-100
               .p-4
                 h2.text-center Ruptura de relaciones comerciales
                 p las entidades financieras, proveedores y socios estratégicos tienden a suspender sus vínculos con organizaciones que enfrentan señalamientos por incumplimiento normativo, afectando su cadena de valor y su operación habitual.
       .col-lg-3
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema5/img35.svg' alt='AvatarTop')
-            .tarjeta.color-primario.w-100
+            .tarjeta.color-primario.w-100.h-100
               .p-4
                 h2.text-center Daño a la imagen institucional
                 p la reputación construida por una organización a lo largo del tiempo puede verse gravemente comprometida ante una sola situación de incumplimiento, generando un impacto negativo de difícil recuperación frente a sus grupos de interés.
@@ -415,7 +415,7 @@
         .tarjeta.p-4(style="background-color:#FAF2DF; border-radius: 0 0 20px 20px;")
           .tarjeta.bg-white.p-4.custom-audio-card
             TarjetaAudio.color-acento-botones(
-              texto="POSTCAT"
+              texto="Sanciones por incumplimiento"
               :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
