@@ -1,32 +1,374 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 50%
+    right: 90%
+    width: 20%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 81%
+    right: 20%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 35%
+    right: 10%
 
 @keyframes float1
   0%
-    transform: translateY(20px)
+    transform: translateY(40px)
   100%
     transform: translateY(0px)
   
-.banner-principal .tarjeta
-  background-position: left 50% !important
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+.banner-principal
+  .container.tarjeta
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-size: cover
+    background-position: center
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/imgbaner.png") !important
 
-.banner-interno__titulo__icono i
-  color: $color-primario
+.banner-interno__titulo__icono
+    background-color: #000
+    color: #000 !important
 
-figcaption
-  font-weight: normal
+.banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
+  color: #000000
+.barra-avance__boton--regresar span
+  color: #FFFFFF !important
+
+.BGINTRO01
+  background: #ffffff
+  background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 217, 199, 1) 50%, rgba(255, 255, 255, 1) 100%)
+  background-image: url("../assets/curso/temas/intro/fondointro1.png") // Tu imagen de fondo
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BGINTRO02
+  background: #ffffff
+  background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 217, 199, 1) 50%, rgba(255, 255, 255, 1) 100%)
+  ackground-image: url("../assets/curso/temas/tema1/imgfondo2.png") // Tu imagen de fondo
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BGINTRO03
+  background: #ffffff
+  background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgb(249, 246, 255) 50%, rgba(255, 255, 255, 1) 100%)
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.BGINTRO04
+  background: #ffffff
+  background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 217, 199, 1) 50%, rgba(255, 255, 255, 1) 100%)
+  //background-image: url("../assets/curso/temas/tema6/imgfondo6.png") // Tu imagen de fondo
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BGINTRO05
+  background: #ffffff
+  background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 217, 199, 1) 50%, rgba(255, 255, 255, 1) 100%)
+  //background-image: url("../assets/curso/temas/tema6/imgfondo66.png") // Tu imagen de fondo
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+
+.BG01
+  background-image: url("../assets/curso/temas/tema3/imgfondo3.png") !important
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+// 1. EL FONDO GENERAL (Detrás del slider)
+// Aplicamos el fondo con textura naranja a la base del slider
+.BG02
+  background-color: #FFB38C // Color base naranja suave
+  //background-image: url("../assets/curso/temas/tema1/imgfondo2.svg") // Tu imagen de fondo
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+// 2. EL CONTENEDOR BLANCO (Dentro del row)
+// Esta es la clase que pusimos en el .pug
+.slider-custom-bg
+  background-color: #ffffff // El fondo blanco nítido
+  border-radius: 20px // Bordes redondeados
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.08) // Sombra suave para dar profundidad
+  
+  // Opcional: Ajustar el color de las flechas para que combine con el fondo naranja
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: #475BDB // Azul intenso
+    opacity: 1
+    border: none
+  
+  .slyder-a__bullets__item
+    background-color: #AFAFAF
+    &--active
+      background-color: #475BDB
+      border-color: #475BDB
+
+.fondo-slyder
+  //background-image: url("../assets/curso/temas/tema1/imgfondosf.svg") !important
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.fondo-1
+  background-image: url("../assets/curso/temas/tema1/imgfondotarjeta.png") !important
+  background-color: #FA996C
+  background-size: cover
+
+.tarjeta--slyder
+  height: 100%
+  background-color: #ffff // Color de fondo suave
+  border-radius: 15px
+  transition: transform 0.3s ease, box-shadow 0.3s ease
+  border: 2px solid #ffff
+
+.bt01
+  background-color: #FEE0D2
+.bt02
+  background-color: #F1F5DD
+.tarjeta.bt03
+  background-color: #fff
+.tarjeta.bt04
+  background-color: #FFF5F0
+.tarjeta.bt05
+  background-color: #D5D7FA
+.bt06
+  background-color: #FFF1E5
+.bt07
+  background-color: #FAFCF4
+.bt08
+  background-color: #FDD1AA
+.bt09
+  background-color: #CFDE90
+
+.tarjeta--gris
+  background-color: #D5D7FA
+
+.tarjeta.bt01.border
+  background-color: #FEE0D2
+  border-radius: 0px
+
+.bloque-texto-ggg-imagen.color-primario
+  background-color: #D5F4F8
+.bloque-texto-gg.color-primario
+  background-color: #D5F4F8
+
+.bloque-texto-gg__img 
+  width: 25%
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  background-position: center
+  background-size: cover
+  @media (max-width: $bp-max-sm)
+    width: 0%
+
+.bloque-texto-gg__img1 
+  width: 50%
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  background-position: center
+  background-size: cover
+
+.bloque-texto-gg
+  position: relative
+  display: flex
+  justify-content: flex-end
+
+.bloque-texto-gg__texto
+  position: relative
+  width: 75%
+  @media (max-width: $bp-max-sm)
+    width: 100%
+.bloque-texto-gg__texto1
+  position: relative
+  width: 50%
+.bloque-texto-gg--inverso
+  justify-content: flex-start
+
+.bloque-texto-gg-imagen 
+  .bloque-texto-gg__img 
+    width: 36%
+  .bloque-texto-gg__texto
+    width: 60%
+
+.bloque-texto-ggg
+  position: relative
+  display: flex
+  justify-content: flex-end
+
+.bloque-texto-ggg__texto
+  position: relative
+  width: 66%
+  
+.bloque-texto-gg--inverso 
+  .bloque-texto-gg__img
+    left: auto
+    right: 0
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #D5D7FA
+    border-radius: 15px 
+    &:hover      
+      background-color: #F1F5DD
+      h4, p
+      .bottomCircle
+        &::before
+          background-color: #CFDE90
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  img
+    max-width: 60%
+    margin: 45px
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 170px
+    height: 170px
+    background-color: #2F3AE6
+    border-radius: 999px
+  @media (max-width: 1000px)
+    img
+      max-width: 45%
+      margin: 86px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #DDEDF8 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+//Listas
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, li i.lista-ul__vineta.lista-ol--cuadro__vineta
+  display: flex
+  align-items: flex-start
+
+.fa-chevron-right, .fa-chevron-left
+  color: $color-acento-botones
+
+.img-infografica.color-acento-botones .img-infografica__item__numero,
+  color: #ffffff !important
+
+table thead
+  tr
+    background-color: #CFDE90
+
+.linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  color: #fffffF
+
+.acordion__activo
+  background-color: #FFF1E5 !important
+
+.acordion__accion__btn--b
+  border: 1px solid #2F3AE6
+  background-color: #2F3AE6
+  color: white
+  
+.tarjeta--azul
+  background-color: #D5D7FA
+
+.tabs-c__tab
+  background-color: #D5D7FA
+
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  background-color: white
+
+.tabs-c
+  border-bottom: 1px solid #ffffff
+  background-color: #FFF1E5
+
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+  color:#fff
+
+.lista-ol--cuadro__vineta
+  color: #000
+
+hr
+  border: dashed 1px black

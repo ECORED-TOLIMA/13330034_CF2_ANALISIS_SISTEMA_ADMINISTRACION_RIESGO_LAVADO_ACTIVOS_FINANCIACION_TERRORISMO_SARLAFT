@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <g id="img12" transform="translate(-72.746 -7992)">
+    <g id="Ellipse_13628" data-name="Ellipse 13628" transform="translate(72.746 7992)" fill="#f4e9ff" stroke="#cfde90" stroke-width="6">
+      <circle cx="64" cy="64" r="64" stroke="none"/>
+      <circle cx="64" cy="64" r="61" fill="none"/>
+    </g>
+    <g id="Group_1182886" data-name="Group 1182886" transform="translate(103.08 7994.104)">
+      <g id="Group_1182884" data-name="Group 1182884" transform="translate(1.232 33.422)">
+        <g id="Group_1182883" data-name="Group 1182883" transform="translate(0 0)">
+          <path id="Path_1014302" data-name="Path 1014302" d="M0,0H19.686V4.927H0Z" transform="translate(14.291 39.371) rotate(-90)" fill="#d1aee5"/>
+          <path id="Path_1014303" data-name="Path 1014303" d="M0,0H39.371V4.927H0Z" transform="translate(24.146 39.371) rotate(-90)" fill="#ff7d97"/>
+          <path id="Path_1014304" data-name="Path 1014304" d="M10,401.822H57.3v4.927H10Z" transform="translate(-10 -357.524)" fill="#98a1b3"/>
+          <path id="Path_1014305" data-name="Path 1014305" d="M0,0H29.712V4.927H0Z" transform="translate(4.437 39.371) rotate(-90)" fill="#fff2a0"/>
+          <path id="Path_1014306" data-name="Path 1014306" d="M0,0H15.151V4.927H0Z" transform="translate(34 39.371) rotate(-90)" fill="#d1aee5"/>
+          <path id="Path_1014307" data-name="Path 1014307" d="M0,0H22.936V4.927H0Z" transform="translate(43.854 39.371) rotate(-90)" fill="#a0e5a5"/>
+          <circle id="Ellipse_13827" data-name="Ellipse 13827" cx="13.302" cy="13.302" r="13.302" transform="translate(28.483 39.372) rotate(-45)" fill="#fff2a0"/>
+        </g>
+      </g>
+      <g id="Group_1182885" data-name="Group 1182885" transform="translate(0 32.19)">
+        <path id="Path_1014308" data-name="Path 1014308" d="M117.257,214.155h4.927a1.232,1.232,0,0,0,1.232-1.232V193.238a1.232,1.232,0,0,0-1.232-1.232h-4.927a1.232,1.232,0,0,0-1.232,1.232v19.686A1.232,1.232,0,0,0,117.257,214.155Zm1.232-19.686h2.464v17.222h-2.464Z" transform="translate(-101.733 -172.32)"/>
+        <path id="Path_1014309" data-name="Path 1014309" d="M197.257,74.025h4.927a1.232,1.232,0,0,0,1.232-1.232V33.422a1.232,1.232,0,0,0-1.232-1.232h-4.927a1.232,1.232,0,0,0-1.232,1.232V72.793A1.232,1.232,0,0,0,197.257,74.025Zm1.232-39.371h2.464V71.561h-2.464Z" transform="translate(-171.879 -32.19)"/>
+        <circle id="Ellipse_13828" data-name="Ellipse 13828" cx="1.232" cy="1.232" r="1.232" transform="translate(19.183 49.225)"/>
+        <path id="Path_1014310" data-name="Path 1014310" d="M37.257,142.782h4.927a1.232,1.232,0,0,0,1.232-1.232V111.838a1.232,1.232,0,0,0-1.232-1.232H37.257a1.232,1.232,0,0,0-1.232,1.232V141.55A1.232,1.232,0,0,0,37.257,142.782Zm1.232-29.712h2.464v27.249H38.489Z" transform="translate(-31.588 -100.947)"/>
+        <path id="Path_1014311" data-name="Path 1014311" d="M51.244,175.509v-8.657a1.232,1.232,0,0,0-1.232-1.232H45.085a1.232,1.232,0,0,0-1.232,1.232v9.176a14.463,14.463,0,0,0-2.464,1.107v-2.5a1.232,1.232,0,0,0-1.232-1.232H35.231A1.232,1.232,0,0,0,34,174.637v15.151h0a14.5,14.5,0,0,0,.477,3.695H1.232A1.232,1.232,0,0,0,0,194.714v4.927a1.232,1.232,0,0,0,1.232,1.232h13.64a1.232,1.232,0,0,0,0-2.464H2.464v-2.464H35.371a14.552,14.552,0,0,0,1.47,2.464H25.958a1.232,1.232,0,0,0,0,2.464H39.146a14.53,14.53,0,1,0,12.1-25.364Zm-4.927-7.425H48.78v7.174c-.082,0-.165,0-.247,0a14.58,14.58,0,0,0-2.216.169Zm-9.854,7.785h2.464v3.024a14.65,14.65,0,0,0-2.464,2.809Zm12.07,25.989a12.07,12.07,0,1,1,12.07-12.07A12.083,12.083,0,0,1,48.533,201.857Z" transform="translate(0 -149.185)"/>
+        <path id="Path_1014312" data-name="Path 1014312" d="M362.957,323.766l-7,7a1.232,1.232,0,1,0,1.742,1.742l7-7a1.232,1.232,0,0,0-1.742-1.742Z" transform="translate(-311.794 -287.535)"/>
+        <circle id="Ellipse_13829" data-name="Ellipse 13829" cx="1.232" cy="1.232" r="1.232" transform="translate(50.785 42.855)"/>
+        <circle id="Ellipse_13830" data-name="Ellipse 13830" cx="1.232" cy="1.232" r="1.232" transform="translate(43.817 35.887)"/>
+      </g>
+    </g>
+  </g>
+</svg>
