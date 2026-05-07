@@ -13,7 +13,8 @@
         )
         .bloque-texto-g__texto.p-4
           p.mb-0 En el marco de los procesos de control interno, las entidades deben garantizar que la información relacionada con la identificación de los clientes, las operaciones realizadas y los reportes efectuados a las autoridades competentes sea almacenada de manera segura y organizada. La adecuada conservación de estos documentos permite que las organizaciones puedan responder oportunamente a requerimientos de información por parte de los organismos de supervisión y control.
-    .row.justify-content-center.align-items-center.p-3(style="background-color: #EEF3D1; border-radius: 10px;")
+    .bt02.p-4.mb-4
+        .row.justify-content-center.align-items-center
           .col-lg-auto.d-none.d-lg-block
             figure
               img(src='@/assets/curso/temas/tema6/img2.svg', width='70', alt='Icono de cooperación global')
@@ -53,7 +54,7 @@
                 tr
                   th Documentos de auditoría y control interno
                   td Informes y registros relacionados con la verificación del cumplimiento de las políticas y procedimientos del sistema SARLAFT.
-    .row.align-items-center.mb-4
+    .row.align-items-center
       .col-lg-auto.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/intro/img3.svg', width='180', alt='Texto que describa la imagen')
@@ -63,7 +64,7 @@
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 6.1 Importancia de la gestión documental
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema6/img3.png', width='180', alt='Texto que describa la imagen')
       .col-lg-9
@@ -98,11 +99,11 @@
             h4.text-center Reportes a las autoridades competentes
             p.text-center.mb-0 informes periódicos que las entidades están obligadas a presentar ante los organismos de supervisión y control, con el propósito de comunicar operaciones sospechosas o situaciones que puedan estar relacionadas con el lavado de activos o la financiación del terrorismo.
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-7
+      .col-lg-7.order-2.order-lg-1
         p Los tres elementos descritos constituyen una fuente de información esencial para el seguimiento de las operaciones y el análisis de posibles situaciones de riesgo. Su adecuada gestión no solo respalda el cumplimiento de las obligaciones regulatorias establecidas por las autoridades de supervisión y control, sino que fortalece la capacidad de la organización para responder oportunamente ante procesos de auditoría, supervisión e investigación relacionados con la prevención del lavado de activos y la financiación del terrorismo.
-        .tarjeta.bt02.p-4
+        .bt02.p-4
           p.mb-0 Asimismo, una adecuada gestión documental facilita el cumplimiento de las obligaciones regulatorias establecidas por las autoridades de supervisión y control. Las organizaciones deben garantizar que la información relevante esté disponible cuando sea requerida por los organismos de control, lo cual permite apoyar procesos de auditoría, supervisión e investigación relacionados con la prevención del lavado de activos y la financiación del terrorismo.
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema6/img11.svg', width='180', alt='Texto que describa la imagen')
     p.mb-4 La implementación de políticas de gestión documental contribuye a mejorar la eficiencia administrativa de las organizaciones, al facilitar la organización, conservación y consulta oportuna de la información. Entre los principales beneficios de una gestión documental adecuada se destacan los siguientes:
@@ -112,45 +113,48 @@
             img(src='@/assets/curso/temas/tema6/img12.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100
               .p-4
-                h2.text-center Acceso y consulta de información
-                p garantiza la disponibilidad oportuna de los registros y documentos requeridos por las autoridades de supervisión, control o auditoría.
+                h5.text-center Acceso y consulta de información
+                p Garantiza la disponibilidad oportuna de los registros y documentos requeridos por las autoridades de supervisión, control o auditoría.
       .col-lg-3
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema6/img3.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100
               .p-4
-                h2.text-center Conservación de registros financieros  
-                p permite mantener evidencia confiable y verificable de las operaciones realizadas por la entidad dentro del sistema financiero. 
+                h5.text-center Conservación de registros financieros  
+                p Permite mantener evidencia confiable y verificable de las operaciones realizadas por la entidad dentro del sistema financiero. 
       .col-lg-3
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema6/img14.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100
               .p-4
-                h2.text-center Cumplimiento normativo
-                p fortalece la aplicación de las disposiciones relacionadas con el sistema SARLAFT, reduciendo el riesgo de sanciones por incumplimiento. 
+                h5.text-center Cumplimiento normativo
+                p Fortalece la aplicación de las disposiciones relacionadas con el sistema SARLAFT, reduciendo el riesgo de sanciones por incumplimiento. 
       .col-lg-3
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema6/img15.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100
               .p-4
-                h2.text-center Protección de la información
-                p salvaguarda los documentos y registros institucionales frente a pérdidas, alteraciones o accesos no autorizados, garantizando su integridad y confidencialidad.
+                h5.text-center Protección de la información
+                p Salvaguarda los documentos y registros institucionales frente a pérdidas, alteraciones o accesos no autorizados, garantizando su integridad y confidencialidad.
     p.mb-4 Los beneficios descritos demuestran que una gestión documental sólida no solo responde a una exigencia regulatoria, sino que se convierte en un instrumento estratégico que fortalece la transparencia, la trazabilidad de las operaciones y la capacidad de respuesta institucional frente a los procesos de supervisión y control del sistema LA/FT.
-    .row.justify-content-center.align-items-center.tarjeta.bt02.p-4.mb-4
-          .col-auto.d-none.d-lg-block
-            figure
-              img(src='@/assets/curso/temas/tema6/img16.svg', width='180', alt='Texto que describa la imagen')
-          .col-lg-9
-            p Junto a la gestión documental, la protección de la información personal y financiera de los clientes constituye otro pilar fundamental del sistema de prevención del lavado de activos y la financiación del terrorismo. El siguiente apartado describe los mecanismos que las organizaciones deben implementar para garantizar la confidencialidad, integridad y disponibilidad de estos datos.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .bt02
+          .row.justify-content-center.align-items-center.p-4.mb-4
+            .col-auto.d-none.d-lg-block
+              figure
+                img(src='@/assets/curso/temas/tema6/img16.svg', width='180', alt='Texto que describa la imagen')
+            .col-lg-9
+              p Junto a la gestión documental, la protección de la información personal y financiera de los clientes constituye otro pilar fundamental del sistema de prevención del lavado de activos y la financiación del terrorismo. El siguiente apartado describe los mecanismos que las organizaciones deben implementar para garantizar la confidencialidad, integridad y disponibilidad de estos datos.
     separador
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 6.2 Protección de la información del cliente
     .row.justify-content-center.align-items-center.mb-4
-        .col-lg-8.order-1.order-lg-2
+        .col-lg-9.order-2.order-lg-1
           p.mb-2 La protección de la información del cliente es un aspecto esencial dentro de los procesos de gestión de la información en las organizaciones, especialmente en aquellas que operan dentro del sistema financiero. Las entidades que recopilan y administran datos personales y financieros tienen la responsabilidad de garantizar que esta información sea utilizada de manera adecuada, evitando su divulgación, uso indebido o acceso no autorizado.
           .bt02.p-4
             p.mb-0 En el contexto del sistema SARLAFT, la información del cliente es fundamental para los procesos de conocimiento del cliente (KYC), monitoreo de operaciones y prevención del lavado de activos y la financiación del terrorismo. Por esta razón, las organizaciones deben implementar mecanismos que permitan proteger la confidencialidad, integridad y disponibilidad de los datos recopilados durante las relaciones comerciales o financieras.
-        .col-lg-4.col-8.mb-4.mb-lg-0.order-2.order-lg-1
+        .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
           figure
             img(src='@/assets/curso/temas/tema6/img17.png', width='180', alt='Texto que describa la imagen')
     .row.align-items-center.mb-4
@@ -232,7 +236,7 @@
             .tarjeta.color-primario.rounded-0.p-4
               p.text-center.mb-0 La privacidad y la confidencialidad no son opcionales: constituyen obligaciones legales y éticas que definen la forma en que las organizaciones gestionan la información de sus clientes.
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-9
+      .col-lg-9.order-2.order-lg-1
         p En el contexto del sistema SARLAFT, las políticas de privacidad y confidencialidad permiten asegurar que la información obtenida durante los procesos de conocimiento del cliente, monitoreo de operaciones y reporte de transacciones sea utilizada únicamente para los fines autorizados. De esta manera, las organizaciones pueden prevenir el uso indebido de los datos y proteger la información sensible relacionada con sus clientes.
         .row.align-items-center.tarjeta.bt02.p-4
           .col-lg-auto.d-none.d-lg-block
@@ -240,7 +244,7 @@
               img(src='@/assets/curso/temas/tema6/img22.svg', width='180', alt='Texto que describa la imagen')
           .col-lg-10
             p.mb-0 Asimismo, la implementación de políticas claras de privacidad y confidencialidad fortalece la confianza entre las organizaciones y los usuarios de sus servicios. Cuando los clientes tienen la seguridad de que su información será protegida adecuadamente, se promueve una relación basada en la transparencia y el respeto por la protección de los datos personales.
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema6/img23.png', width='180', alt='Texto que describa la imagen')
     p.mb-4 La implementación de políticas claras de privacidad y confidencialidad genera efectos concretos sobre la relación entre la organización y sus grupos de interés, entre los cuales se destacan los siguientes:
