@@ -7,13 +7,14 @@
         span 5
       h1 Sanciones por incumplimiento de las normas LA/FT
     .row.justify-content-center.align-items-center.mb-4
-        .col-lg-8.order-1.order-lg-2
-          p El cumplimiento de las normas relacionadas con la prevención del lavado de activos y la financiación del terrorismo es una obligación fundamental para las organizaciones que participan en el sistema financiero y en otros sectores económicos. Cuando las entidades no implementan adecuadamente los mecanismos de control establecidos por la normativa vigente, pueden enfrentarse a diferentes tipos de sanciones impuestas por las autoridades de supervisión y control.
-          .bt01.p-4
-            p.mb-0 En el marco del sistema SARLAFT, las sanciones buscan garantizar que las organizaciones adopten medidas efectivas para prevenir el uso indebido de sus servicios y productos financieros. Estas medidas tienen como propósito fortalecer los mecanismos de control dentro de las entidades y promover el cumplimiento de las disposiciones legales relacionadas con la prevención del lavado de activos y la financiación del terrorismo.
-        .col-lg-4.col-8.mb-4.mb-lg-0.order-2.order-lg-1
-          figure
-            img(src='@/assets/curso/temas/tema5/img1.png', width='180', alt='Texto que describa la imagen')
+      .col-lg-4.col-8.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/temas/tema5/img1.png', width='180', alt='Texto que describa la imagen')
+      .col-lg-8
+        p El cumplimiento de las normas relacionadas con la prevención del lavado de activos y la financiación del terrorismo es una obligación fundamental para las organizaciones que participan en el sistema financiero y en otros sectores económicos. Cuando las entidades no implementan adecuadamente los mecanismos de control establecidos por la normativa vigente, pueden enfrentarse a diferentes tipos de sanciones impuestas por las autoridades de supervisión y control.
+        .bt06.p-4
+          p.mb-0 En el marco del sistema SARLAFT, las sanciones buscan garantizar que las organizaciones adopten medidas efectivas para prevenir el uso indebido de sus servicios y productos financieros. Estas medidas tienen como propósito fortalecer los mecanismos de control dentro de las entidades y promover el cumplimiento de las disposiciones legales relacionadas con la prevención del lavado de activos y la financiación del terrorismo.
+        
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-9
         .row.align-items-center.mb-2
@@ -68,11 +69,11 @@
         .bloque-texto-g__texto.p-4
           p.mb-0 En el contexto del sistema SARLAFT, las sanciones administrativas son aplicadas principalmente por entidades como la Superintendencia Financiera de Colombia o la Superintendencia de Sociedades, dependiendo del sector económico al que pertenezca la organización. Estas instituciones realizan procesos de inspección, vigilancia y control para verificar que las entidades cumplan con las normas establecidas para prevenir el lavado de activos y la financiación del terrorismo.
     .row.justify-content-center.align-items-center.mb-4
-        .col-lg-8.order-2.order-lg-1
+        .col-lg-9.order-2.order-lg-1
           p Cuando una organización presenta fallas en la implementación de sus mecanismos de control o incumple las obligaciones de reporte y monitoreo establecidas por la normativa, las autoridades pueden iniciar procesos administrativos que conduzcan a la imposición de sanciones. Estas medidas buscan corregir las deficiencias detectadas y fortalecer los sistemas de prevención dentro de las organizaciones.
-          .bt01.p-4
+          .bt02.p-4
             p.mb-0 Asimismo, las sanciones administrativas cumplen una función preventiva dentro del sistema financiero y empresarial, ya que incentivan a las organizaciones a fortalecer sus controles internos y a cumplir de manera rigurosa con las disposiciones legales. A través de estas medidas, las autoridades promueven una mayor transparencia en las operaciones financieras y contribuyen a reducir los riesgos asociados al lavado de activos y la financiación del terrorismo.
-        .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
+        .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
           figure
             img(src='@/assets/curso/temas/tema5/img4.png', width='180', alt='Texto que describa la imagen')
     p.mb-4 Entre las principales sanciones administrativas que las autoridades competentes pueden aplicar a las entidades que incumplen las disposiciones del sistema LA/FT, se encuentran las siguientes:
@@ -133,7 +134,7 @@
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 5.2 Sanciones penales
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
               img(src='@/assets/curso/temas/tema5/img13.png', width='180', alt='Texto que describa la imagen')
       .col-lg-8
@@ -169,7 +170,7 @@
           )  
     p.mb-4 Estas sanciones pueden aplicarse tanto a quienes realizan directamente las operaciones ilícitas como a quienes facilitan, colaboran o encubren este tipo de actividades.
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema5/img16.svg', width='180', alt='Texto que describa la imagen')     
       .col-lg-8       
@@ -313,10 +314,10 @@
       h2 5.4 Consecuencias para las organizaciones
     p.mb-4 El incumplimiento de las normas relacionadas con la prevención del lavado de activos y la financiación del terrorismo puede generar diversas consecuencias para las organizaciones que participan en el sistema financiero y empresarial. Estas consecuencias pueden afectar no solo la estabilidad económica de la entidad, sino también su reputación, su capacidad operativa y la confianza que los clientes y aliados depositan en la organización.
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema5/img42.png', width='180', alt='Texto que describa la imagen')
-      .col-lg-8.tarjeta.bt04.p-4
+      .col-lg-8.tarjeta.bt02.p-4
         .row
             .col-lg-auto.d-none.d-lg-block.mb-2
               figure
@@ -354,10 +355,10 @@
                 h2.text-center Daño a la imagen institucional
                 p la reputación construida por una organización a lo largo del tiempo puede verse gravemente comprometida ante una sola situación de incumplimiento, generando un impacto negativo de difícil recuperación frente a sus grupos de interés.
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4
+      .col-lg-3.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema5/img36.png', width='180', alt='Texto que describa la imagen')
-      .col-lg-8
+      .col-lg-9
         .row.align-items-center.tarjeta.bt06.p-4
           .col-lg-auto.d-none.d-lg-block
             figure
