@@ -31,8 +31,8 @@
     p.mb-4 Para ampliar la comprensión de los conceptos abordados y contextualizarlos en la aplicación práctica del sistema SARLAFT, se recomienda acceder al recurso audiovisual que acompaña este componente formativo.
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: VIDEO DE MUESTRA
+        iframe(width="1346" height="757" src="https://www.youtube.com/embed/r-5W6-nNrl4" title="Aplicación del sistema SARLAFT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+
 </template>
 
 <script>
