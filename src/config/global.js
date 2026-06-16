@@ -297,42 +297,42 @@ export default {
   referencias: [
     {
       referencia:
-        'Congreso de la República de Colombia. (1999). Ley 526 de 1999. Por medio de la cual se crea la Unidad de Información y Análisis Financiero (UIAF) y se dictan otras disposiciones relacionadas con la prevención del lavado de activos.',
+        'Congreso de la República de Colombia. (1999). <em>Ley 526 de 1999. Por medio de la cual se crea la Unidad de Información y Análisis Financiero (UIAF) y se dictan otras disposiciones relacionadas con la prevención del lavado de activos</em>.',
       link: '',
     },
     {
       referencia:
-        'Congreso de la República de Colombia. (2006). Ley 1121 de 2006. Por la cual se dictan normas para la prevención, detección, investigación y sanción de la financiación del terrorismo.',
+        'Congreso de la República de Colombia. (2006). <em>Ley 1121 de 2006. Por la cual se dictan normas para la prevención, detección, investigación y sanción de la financiación del terrorismo</em>.',
       link: '',
     },
     {
       referencia:
-        'Congreso de la República de Colombia. (2008). Ley 1266 de 2008. Por la cual se dictan disposiciones generales del habeas data y se regula el manejo de la información financiera y crediticia.',
+        'Congreso de la República de Colombia. (2008). <em>Ley 1266 de 2008. Por la cual se dictan disposiciones generales del habeas data y se regula el manejo de la información financiera y crediticia</em>.',
       link: '',
     },
     {
       referencia:
-        'Federación Latinoamericana de Bancos (FELABAN). (2016). Informe sobre prevención del lavado de activos y financiación del terrorismo en el sector financiero.',
+        'Federación Latinoamericana de Bancos (FELABAN). (2016). <em>Informe sobre prevención del lavado de activos y financiación del terrorismo en el sector financiero</em>.',
       link: '',
     },
     {
       referencia:
-        'Grupo de Acción Financiera Internacional (GAFI). (2012). Recomendaciones del GAFI para la lucha contra el lavado de activos y la financiación del terrorismo.',
+        'Grupo de Acción Financiera Internacional (GAFI). (2012). <em>Recomendaciones del GAFI para la lucha contra el lavado de activos y la financiación del terrorismo</em>.',
       link: '',
     },
     {
       referencia:
-        'Servicio Nacional de Aprendizaje (SENA). (2017). Material de formación: Análisis del sistema de administración del riesgo de lavado de activos y financiación del terrorismo – SARLAFT.',
+        'Servicio Nacional de Aprendizaje (SENA). (2017). <em>Material de formación: Análisis del sistema de administración del riesgo de lavado de activos y financiación del terrorismo – SARLAFT</em>.',
       link: '',
     },
     {
       referencia:
-        'Superintendencia Financiera de Colombia. (2022). Circular Básica Jurídica. Sistema de Administración del Riesgo de Lavado de Activos y Financiación del Terrorismo (SARLAFT).',
+        'Superintendencia Financiera de Colombia. (2022). <em>Circular Básica Jurídica. Sistema de Administración del Riesgo de Lavado de Activos y Financiación del Terrorismo (SARLAFT)</em>.',
       link: '',
     },
     {
       referencia:
-        'Unidad de Información y Análisis Financiero (UIAF). (2023). Lineamientos para la prevención y detección del lavado de activos y la financiación del terrorismo.',
+        'Unidad de Información y Análisis Financiero (UIAF). (2023). <em>Lineamientos para la prevención y detección del lavado de activos y la financiación del terrorismo</em>.',
       link: '',
     },
   ],

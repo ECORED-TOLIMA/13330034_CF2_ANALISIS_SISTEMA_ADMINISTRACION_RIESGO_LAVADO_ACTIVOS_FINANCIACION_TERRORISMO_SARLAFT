@@ -16,7 +16,7 @@
           p.mb-0 En el marco del sistema SARLAFT, las sanciones buscan garantizar que las organizaciones adopten medidas efectivas para prevenir el uso indebido de sus servicios y productos financieros. Estas medidas tienen como propósito fortalecer los mecanismos de control dentro de las entidades y promover el cumplimiento de las disposiciones legales relacionadas con la prevención del lavado de activos y la financiación del terrorismo.
         
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-9
+      .col-lg-9.order-2.order-lg-1
         .row.align-items-center.mb-2
           .col-lg-auto.d-none.d-lg-block
             figure
@@ -24,7 +24,7 @@
           .col-lg-9
             p.mb-0 Asimismo, las sanciones por incumplimiento de estas normas pueden generar consecuencias significativas tanto para las organizaciones como para las personas responsables de la gestión y supervisión de los sistemas de control. Estas sanciones pueden afectar la estabilidad financiera de las entidades, su reputación en el mercado y su capacidad para continuar desarrollando sus actividades dentro del sistema económico.
         p A continuación, se presentan algunos de los principales tipos de sanciones que pueden aplicarse cuando las organizaciones incumplen las disposiciones relacionadas con la prevención del lavado de activos y la financiación del terrorismo.
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
               img(src='@/assets/curso/temas/tema5/img2.svg', width='180', alt='Texto que describa la imagen')
     .row.justify-content-center.align-items-center.mb-3
@@ -154,13 +154,13 @@
               li
                 img(src='@/assets/curso/temas/tema1/img26.svg', style="width:30px", alt='Texto que describa la imagen')
                 | #[b Penas privativas]
-              li
-                | -----------------------------------------------------------------------------------------------------------------
+            <hr>
+            ul.lista-ul
               li
                 img(src='@/assets/curso/temas/tema1/img26.svg', style="width:30px", alt='Texto que describa la imagen')
                 | #[b Multas ecónomicas]
-              li
-                | -----------------------------------------------------------------------------------------------------------------
+            <hr>
+            ul.lista-ul
               li
                 img(src='@/assets/curso/temas/tema1/img26.svg', style="width:30px", alt='Texto que describa la imagen')
                 | #[b Medidas judiciales]
@@ -238,20 +238,20 @@
         .bloque-texto-g__texto.p-4
           p.mb-0 En el marco del sistema SARLAFT, las sanciones financieras pueden aplicarse cuando una entidad no implementa adecuadamente los mecanismos de control, incumple las obligaciones de reporte o presenta deficiencias en los procesos de monitoreo de operaciones. Estas medidas son impuestas por las autoridades competentes como parte de los procesos de supervisión y control que buscan garantizar la transparencia en las operaciones financieras.
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-9
+      .col-lg-9.order-2.order-lg-1
         .row.justify-content-center.align-items-center.tarjeta.bt02.p-4.mb-4
           .col-auto.d-none.d-lg-block
             figure
               img(src='@/assets/curso/temas/tema5/img26.svg', width='180', alt='Texto que describa la imagen')
           .col-lg-10
             p El impacto de las sanciones financieras sobre las organizaciones que incumplen la normativa LA/FT se manifiesta en cuatro dimensiones que afectan de manera simultánea su estabilidad y operatividad. La siguiente figura ilustra cómo cada sanción genera un efecto en cadena sobre el funcionamiento de la entidad, similar al principio de acción y reacción:
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema5/img27.png', width='180', alt='Texto que describa la imagen')
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Figure 3.
+          h5 Figura 3.
           span Impacto de las sanciones financieras
     .row.justify-content-center.mb-4
       .col-lg-10
@@ -259,10 +259,10 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema5/img28.svg', alt='Infografía de matriz RACI')
+                img(src='@/assets/curso/temas/tema5/img28.svg', alt='Figura que representa el impacto en cadena de las sanciones financieras sobre la estabilidad económica de las organizaciones, ilustrado mediante esferas en movimiento secuencial. La imagen muestra cuatro consecuencias progresivas del incumplimiento normativo: imposición de multas económicas, pérdidas financieras importantes, deterioro de la reputación institucional y limitación de la capacidad operativa. ')
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/temas/tema5/img28_1.svg', alt='Matriz RACI para dispositivos móviles')
+            img(src='@/assets/curso/temas/tema5/img28_1.svg', alt='Figura que representa el impacto en cadena de las sanciones financieras sobre la estabilidad económica de las organizaciones, ilustrado mediante esferas en movimiento secuencial. La imagen muestra cuatro consecuencias progresivas del incumplimiento normativo: imposición de multas económicas, pérdidas financieras importantes, deterioro de la reputación institucional y limitación de la capacidad operativa. ')
     p.mb-4 Como se observa en la figura anterior, las sanciones financieras no actúan de forma aislada. Las multas y sanciones económicas desencadenan pérdidas financieras que, a su vez, deterioran la reputación institucional y limitan progresivamente la capacidad de la organización para continuar operando dentro del sistema financiero y empresarial colombiano.
     .row.justify-content-center.align-items-center.mb-4
         .col-lg-8.order-1.order-lg-2
@@ -277,28 +277,28 @@
           .tarjeta.bt06.p-4
             .row.justify-content-center.align-items-center
               .col-lg-8.order-2.order-lg-1
-                ol.lista-ol--cuadro
+                ul.lista-ul
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Multas económicas impuestas por las autoridades de supervisión y control.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Multas económicas impuestas por las autoridades de supervisión y control.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Pago de sanciones monetarias por incumplimiento de obligaciones regulatorias.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Pago de sanciones monetarias por incumplimiento de obligaciones regulatorias.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Congelamiento o bloqueo de cuentas relacionadas con operaciones ilícitas.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Congelamiento o bloqueo de cuentas relacionadas con operaciones ilícitas.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Pérdida de recursos financieros vinculados a actividades ilegales.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Pérdida de recursos financieros vinculados a actividades ilegales.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Restricciones en el acceso a determinados servicios financieros.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Restricciones en el acceso a determinados servicios financieros.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Decomiso de recursos provenientes de operaciones irregulares.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Decomiso de recursos provenientes de operaciones irregulares.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Costos financieros derivados de procesos legales o sancionatorios.        
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Costos financieros derivados de procesos legales o sancionatorios.        
               .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
                 figure
                   img(src='@/assets/curso/temas/tema5/img30.svg', alt='Texto que describa la imagen')
@@ -326,21 +326,21 @@
               p.mb-0 En el contexto del sistema SARLAFT, las organizaciones que no implementan adecuadamente los mecanismos de prevención y control pueden enfrentar sanciones por parte de las autoridades de supervisión. Estas sanciones pueden incluir multas, restricciones operativas o medidas correctivas que obligan a la entidad a fortalecer sus procesos internos para garantizar el cumplimiento de la normativa vigente.
     p.mb-4 El deterioro de la imagen institucional derivado del incumplimiento de las normas LA/FT genera consecuencias concretas que afectan la sostenibilidad y competitividad de la organización en el mercado, entre las cuales se destacan las siguientes:
     .row.mb-4
-      .col-lg-3
+      .col-lg-3.mb-4.mb-lg-0
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema5/img32.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100.h-100
               .p-4
                 h2.text-center Pérdida de clientes
                 p el involucramiento de una organización en investigaciones relacionadas con el lavado de activos genera desconfianza entre sus clientes actuales, quienes optan por trasladar sus operaciones a entidades con mayor solidez reputacional.
-      .col-lg-3
+      .col-lg-3.mb-4.mb-lg-0
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema5/img33.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100.h-100
               .p-4
                 h2.text-center Reducción de oportunidades de negocio
                 p la vinculación con actividades ilícitas limita el acceso de la organización a nuevos mercados, licitaciones y alianzas estratégicas, restringiendo su capacidad de crecimiento y expansión comercial.
-      .col-lg-3
+      .col-lg-3.mb-4.mb-lg-0
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema5/img34.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100.h-100
@@ -359,7 +359,7 @@
         figure
           img(src='@/assets/curso/temas/tema5/img36.png', width='180', alt='Texto que describa la imagen')
       .col-lg-9
-        .row.align-items-center.tarjeta.bt06.p-4
+        .row.align-items-center.tarjeta.bt06.p-4.mb-4
           .col-lg-auto.d-none.d-lg-block
             figure
               img(src='@/assets/curso/temas/tema5/img37.svg', width='180', alt='Texto que describa la imagen')
@@ -369,7 +369,7 @@
           .col-lg-auto.d-none.d-lg-block
             figure
               img(src='@/assets/curso/temas/intro/img3.svg', style="width:100px", alt='Texto que describa la imagen')
-          .col-lg-9
+          .col-lg-10
             p.mb-0 Por otra parte, las organizaciones que no aplican adecuadamente los sistemas de prevención del LA/FT pueden enfrentar riesgos financieros y legales que comprometan su estabilidad a largo plazo. Por esta razón, la implementación efectiva de mecanismos como el SARLAFT resulta fundamental para proteger la integridad de las operaciones, fortalecer la transparencia institucional y garantizar el cumplimiento de las normas establecidas por las autoridades regulatorias.
     p.mb-4 Entre algunas de las principales consecuencias que pueden enfrentar las organizaciones se encuentran las siguientes:
     .row.justify-content-center.align-items-center.mb-4
@@ -377,25 +377,25 @@
           .tarjeta.bt06.p-4
             .row.justify-content-center.align-items-center
               .col-lg-8.order-2.order-lg-1
-                ol.lista-ol--cuadro
+                ul.lista-ul
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Deterioro de la reputación e imagen institucional de la organización.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Deterioro de la reputación e imagen institucional de la organización.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Pérdida de confianza por parte de clientes, inversionistas y aliados comerciales.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Pérdida de confianza por parte de clientes, inversionistas y aliados comerciales.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Restricciones o limitaciones en el desarrollo de determinadas actividades financieras.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Restricciones o limitaciones en el desarrollo de determinadas actividades financieras.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Incremento en los niveles de supervisión por parte de los organismos de control.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Incremento en los niveles de supervisión por parte de los organismos de control.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  | Costos legales derivados de procesos de investigación o sanción.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    | Costos legales derivados de procesos de investigación o sanción.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Riesgo de cierre o suspensión de operaciones en casos graves de incumplimiento.    
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Riesgo de cierre o suspensión de operaciones en casos graves de incumplimiento.    
               .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
                 figure
                   img(src='@/assets/curso/temas/tema5/img38.svg', alt='Texto que describa la imagen')
@@ -417,16 +417,15 @@
           .tarjeta.bg-white.p-4.custom-audio-card
             TarjetaAudio.color-acento-botones(
               texto="Sanciones por incumplimiento"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/componentes/audios/podcast.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
     .row.justify-content-center.align-items-center.mb-4
-          .col-lg-7.order-2.order-lg-1
-            .bt02.p-4.mb-2
-              p.mb-0 El recurso de audio anterior sintetiza los tres tipos de sanciones establecidos por la normativa colombiana frente al incumplimiento del sistema SARLAFT: las de orden administrativo, las de carácter penal y las de naturaleza financiera. Su comprensión integral permite dimensionar el alcance real del riesgo que enfrentan las organizaciones que no implementan adecuadamente los mecanismos de prevención del lavado de activos y la financiación del terrorismo.
-          .col-lg-5.col-8.mb-4.mb-lg-0.order-1.order-lg-2
-            p El conocimiento de las sanciones y sus consecuencias sobre las organizaciones pone de manifiesto la importancia de contar con sistemas robustos de gestión documental que respalden el cumplimiento normativo y sustenten las decisiones adoptadas en materia de prevención. La conservación adecuada de documentos e información constituye, precisamente, uno de los pilares fundamentales sobre los que se soporta la operación del sistema SARLAFT dentro de las entidades vigiladas.
+      .col-lg-7.order-2.order-lg-1
+        .bt02.p-4.mb-2
+          p.mb-0 El recurso de audio anterior sintetiza los tres tipos de sanciones establecidos por la normativa colombiana frente al incumplimiento del sistema SARLAFT: las de orden administrativo, las de carácter penal y las de naturaleza financiera. Su comprensión integral permite dimensionar el alcance real del riesgo que enfrentan las organizaciones que no implementan adecuadamente los mecanismos de prevención del lavado de activos y la financiación del terrorismo.
+    p El conocimiento de las sanciones y sus consecuencias sobre las organizaciones pone de manifiesto la importancia de contar con sistemas robustos de gestión documental que respalden el cumplimiento normativo y sustenten las decisiones adoptadas en materia de prevención. La conservación adecuada de documentos e información constituye, precisamente, uno de los pilares fundamentales sobre los que se soporta la operación del sistema SARLAFT dentro de las entidades vigiladas.
             
                                        
     

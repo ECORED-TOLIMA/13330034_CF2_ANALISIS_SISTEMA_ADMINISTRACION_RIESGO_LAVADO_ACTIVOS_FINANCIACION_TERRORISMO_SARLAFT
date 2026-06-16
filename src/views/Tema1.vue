@@ -249,34 +249,34 @@
             ul.lista-ul
               li
                 i.fas.fa-lock(style="color: #CFDE90;")
-                | #[b Nombre completo o razón social:] corresponde a la identificación del cliente como persona natural o jurídica.
+                p.mb-0 #[b Nombre completo o razón social:] corresponde a la identificación del cliente como persona natural o jurídica.
               li
                 i.fas.fa-lock(style="color: #CFDE90;")
-                | #[b Número de identificación:] corresponde al documento legal del cliente.
+                p.mb-0 #[b Número de identificación:] corresponde al documento legal del cliente.
               li
                 i.fas.fa-lock(style="color: #CFDE90;")
-                | #[b Fecha y lugar de nacimiento:] aplica para personas naturales.
+                p.mb-0 #[b Fecha y lugar de nacimiento:] aplica para personas naturales.
               li
                 i.fas.fa-lock(style="color: #CFDE90;")
-                | #[b Dirección de residencia:] corresponde al domicilio principal del cliente.
+                p.mb-0 #[b Dirección de residencia:] corresponde al domicilio principal del cliente.
               li
                 i.fas.fa-lock(style="color: #CFDE90;")
-                | #[b Número de teléfono y datos de contacto:] permiten establecer comunicación con el cliente.
+                p.mb-0 #[b Número de teléfono y datos de contacto:] permiten establecer comunicación con el cliente.
               li
                 i.fas.fa-lock(style="color: #CFDE90;")
-                | #[b Actividad económica:] corresponde a la actividad desarrollada por el cliente.
+                p.mb-0 #[b Actividad económica:] corresponde a la actividad desarrollada por el cliente.
               li
                 i.fas.fa-lock(style="color: #CFDE90;")
-                | #[b Origen de los recursos o ingresos:] describe la procedencia de los recursos económicos.
+                p.mb-0 #[b Origen de los recursos o ingresos:] describe la procedencia de los recursos económicos.
               li
                 i.fas.fa-lock(style="color: #CFDE90;")
-                | #[b Información laboral o empresarial:] corresponde a la ocupación o actividad productiva del cliente.
+                p.mb-0 #[b Información laboral o empresarial:] corresponde a la ocupación o actividad productiva del cliente.
               li
                 i.fas.fa-lock(style="color: #CFDE90;")
-                | #[b Referencias comerciales o financieras:] respaldan la información suministrada por el cliente.
+                p.mb-0 #[b Referencias comerciales o financieras:] respaldan la información suministrada por el cliente.
               li
                 i.fas.fa-lock(style="color: #CFDE90;")
-                | #[b Documentos de soporte:] permiten verificar la información registrada.
+                p.mb-0 #[b Documentos de soporte:] permiten verificar la información registrada.
     p.mb-4 La información descrita permite a las organizaciones validar la identidad del cliente y comprender su perfil de manera general, lo cual facilita la verificación de los datos suministrados y la detección de posibles inconsistencias en el proceso de identificación.
     .row.align-items-center
       .col-lg-auto.d-none.d-lg-block
@@ -307,19 +307,19 @@
               .col-lg-1.col-2
                 img(src='@/assets/curso/temas/tema1/img26.svg', style="width:30px", alt='Texto que describa la imagen')
               .col-lg-11.col-9
-                p.mb-0 #[b Cuentas:]
+                p.mb-0 #[b Cuentas.]
             hr
             .row
               .col-lg-1.col-2
                 img(src='@/assets/curso/temas/tema1/img26.svg', style="width:30px", alt='Texto que describa la imagen')
               .col-lg-11.col-9
-                p.mb-0 #[b Adquisición de productos:]
+                p.mb-0 #[b Adquisición de productos.]
             hr
             .row
               .col-lg-1.col-2
                 img(src='@/assets/curso/temas/tema1/img26.svg', style="width:30px", alt='Texto que describa la imagen')
               .col-lg-11.col-9
-                p.mb-0 #[b Realización de operaciones:]
+                p.mb-0 #[b Realización de operaciones.]
             
               
           .bloque-texto-gg__img(

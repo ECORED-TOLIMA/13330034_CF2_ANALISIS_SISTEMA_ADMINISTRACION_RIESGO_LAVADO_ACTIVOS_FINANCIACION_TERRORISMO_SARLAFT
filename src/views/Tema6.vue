@@ -108,21 +108,21 @@
           img(src='@/assets/curso/temas/tema6/img11.svg', width='180', alt='Texto que describa la imagen')
     p.mb-4 La implementación de políticas de gestión documental contribuye a mejorar la eficiencia administrativa de las organizaciones, al facilitar la organización, conservación y consulta oportuna de la información. Entre los principales beneficios de una gestión documental adecuada se destacan los siguientes:
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3
+      .col-lg-3.mb-4.mb-lg-0
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema6/img12.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100
               .p-4
                 h5.text-center Acceso y consulta de información
                 p Garantiza la disponibilidad oportuna de los registros y documentos requeridos por las autoridades de supervisión, control o auditoría.
-      .col-lg-3
+      .col-lg-3.mb-4.mb-lg-0
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema6/img3.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100
               .p-4
                 h5.text-center Conservación de registros financieros  
                 p Permite mantener evidencia confiable y verificable de las operaciones realizadas por la entidad dentro del sistema financiero. 
-      .col-lg-3
+      .col-lg-3.mb-4.mb-lg-0
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema6/img14.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100
@@ -196,31 +196,31 @@
           .tarjeta.bt06.p-4
             .row.justify-content-center.align-items-center
               .col-lg-8.order-2.order-lg-1
-                ol.lista-ol--cuadro
+                ul.lista-ul
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  | Implementación de políticas de seguridad de la información dentro de la organización.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    | Implementación de políticas de seguridad de la información dentro de la organización.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  | Control de acceso a los sistemas que contienen información de los clientes.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    | Control de acceso a los sistemas que contienen información de los clientes.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  | Uso de herramientas tecnológicas para proteger los datos almacenados.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    | Uso de herramientas tecnológicas para proteger los datos almacenados.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  | Capacitación del personal en el manejo adecuado de la información confidencial.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    | Capacitación del personal en el manejo adecuado de la información confidencial.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  | Establecimiento de procedimientos para el tratamiento de datos personales.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    | Establecimiento de procedimientos para el tratamiento de datos personales.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  | Protección de los documentos físicos y digitales que contienen información sensible.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    | Protección de los documentos físicos y digitales que contienen información sensible.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  | Cumplimiento de la normativa relacionada con la protección de datos personales.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    | Cumplimiento de la normativa relacionada con la protección de datos personales.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  | Monitoreo y control permanente del uso de la información dentro de la organización.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    | Monitoreo y control permanente del uso de la información dentro de la organización.
               .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
                 figure
                   img(src='@/assets/curso/temas/tema6/img20.svg', alt='Texto que describa la imagen')

@@ -169,7 +169,7 @@
       h2 4.2 Fiscalía General de la Nación
     p.mb-4 La Fiscalía General de la Nación es la entidad del Estado colombiano encargada de investigar y acusar ante los jueces a las personas que presuntamente han cometido delitos. Su función principal es adelantar procesos de investigación penal que permitan esclarecer hechos delictivos y garantizar la aplicación de la ley dentro del marco del sistema judicial colombiano.
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema4/img17.png', width='180', alt='Texto que describa la imagen')
       .col-lg-8.tarjeta.bt04.p-5
@@ -181,14 +181,14 @@
               p.mb-0 En el contexto de la prevención y control del lavado de activos y la financiación del terrorismo, la Fiscalía General de la Nación cumple un papel fundamental en la investigación de las conductas relacionadas con estos delitos. A partir de la información suministrada por entidades como la Unidad de Información y Análisis Financiero (UIAF) y otros organismos de control, la Fiscalía puede iniciar procesos de investigación orientados a identificar a los responsables de estas actividades ilícitas.
     p.mb-4 Esta coordinación con instituciones nacionales e internacionales se materializa en acciones concretas que fortalecen los procesos de investigación frente a los delitos financieros, entre las cuales se destacan:
     .row.mb-4
-      .col-lg-4
+      .col-lg-4.mb-4.mb-lg-0
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema4/img19.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100.h-100
               .p-4
                 h5.text-center Intercambio de información
                 p consiste en compartir datos relevantes con otros organismos de control, con el fin de construir evidencia sólida sobre posibles operaciones relacionadas con el lavado de activos o la financiación del terrorismo. 
-      .col-lg-4
+      .col-lg-4.mb-4.mb-lg-0
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema4/img20.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100.h-100
@@ -269,7 +269,7 @@
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.4 Unidad de Información y Análisis Financiero (UIAF)
     .row.justify-content-center.align-items-center.mb-4
-      .col-9.order-2.order-lg-1
+      .col-lg-9.order-2.order-lg-1
         p Los organismos de control desempeñan un papel fundamental en la prevención y combate del lavado de activos y la financiación del terrorismo dentro del sistema financiero y empresarial. Estas entidades tienen la responsabilidad de supervisar el cumplimiento de la normativa vigente, investigar posibles actividades ilícitas y garantizar que las organizaciones implementen adecuadamente los mecanismos de prevención establecidos en el sistema SARLAFT.
         .bt01.p-4  
           p.mb-0 En el marco del sistema de control del Estado, los organismos encargados de la supervisión y vigilancia desarrollan diferentes actividades orientadas a fortalecer la transparencia en las operaciones financieras. A través de procesos de inspección, monitoreo y análisis de información, estas entidades pueden identificar irregularidades, detectar riesgos asociados al lavado de activos y adoptar medidas que permitan prevenir el uso indebido del sistema financiero.
@@ -292,21 +292,21 @@
             .col-lg
               p.mb-0 Asimismo, los organismos de control trabajan de manera coordinada con diferentes instituciones nacionales e internacionales con el fin de fortalecer los procesos de investigación y sanción frente a delitos financieros. Esta cooperación institucional facilita el intercambio de información, el seguimiento de operaciones sospechosas y la identificación de redes criminales que puedan estar involucradas en actividades ilícitas.
 
-    .row.align-items-center
+    .row.align-items-center.mb-4
       .col-lg-10
         p.mb-0 La coordinación interinstitucional descrita no constituye un fin en sí mismo, sino el medio a través del cual los organismos de control logran resultados concretos y verificables dentro del sistema financiero colombiano. Su actuación articulada genera efectos que se traducen en beneficios directos para la integridad del sistema económico y la seguridad institucional del país, entre los cuales se destacan los siguientes:
       .col-lg-auto.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/intro/img3.svg', width='180', alt='Texto que describa la imagen')
     .row.mb-4
-      .col-lg-4
+      .col-lg-4.mb-4.mb-lg-0
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema4/img19.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100.h-100
               .p-4
                 h5.text-center A. Cumplimiento normativo
                 p.mb-0 Garantiza que las entidades vigiladas apliquen correctamente las disposiciones del SARLAFT y demás normas relacionadas con la prevención del lavado de activos y la financiación del terrorismo. 
-      .col-lg-4
+      .col-lg-4.mb-4.mb-lg-0
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema4/img20.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100.h-100
@@ -351,7 +351,7 @@
                 i.fas.fa-lock(style="color: #CFDE90;")
                 | Fortalecer la cooperación institucional en la lucha contra el crimen financiero.
     .row.justify-content-center.align-items-center
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema4/img34.svg', width='180', alt='Texto que describa la imagen')     
       .col-lg-8       

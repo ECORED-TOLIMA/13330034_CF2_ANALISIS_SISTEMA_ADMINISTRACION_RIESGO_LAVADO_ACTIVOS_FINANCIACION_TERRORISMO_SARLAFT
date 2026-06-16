@@ -129,7 +129,7 @@
             p.mb-0 Extracción de dinero en montos acordes con el nivel de ingresos y el comportamiento financiero habitual del cliente. Ejemplo: retiro mensual en cajero automático equivalente al gasto personal habitual del cliente.
           .row(numero="7" titulo="Recepción de pagos por actividad económica")
             p.mb-0 Ingreso de recursos provenientes de clientes o compradores, coherente con la actividad comercial o profesional declarada. Ejemplo: consignación de un cliente por la compra de mercancía a una empresa distribuidora.
-      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-3.col-6.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema2/img9.png', alt='')
     p.mb-0 Las operaciones descritas comparten una característica esencial, son predecibles, verificables y coherentes con el perfil financiero del cliente. Esta consistencia es precisamente lo que permite a las organizaciones detectar cuándo una transacción se aparta del comportamiento esperado y requiere un análisis más detallado, situación que caracteriza a las operaciones inusuales, desarrolladas en el siguiente apartado.
@@ -233,11 +233,11 @@
           h5.text-center Operaciones realizadas por terceros
           p.text-center transacciones ejecutadas por personas sin vínculo comercial o familiar verificable con el cliente titular de la cuenta o del producto financiero.
     .row.justify-content-center.align-items-center
-      .col-lg-8
+      .col-lg-8.order-2.order-lg-1
         p Las situaciones descritas no constituyen por sí solas evidencias de actividad ilícita, pero sí representan señales que obligan a la organización a iniciar un proceso de verificación. La detección oportuna de estas transacciones y su análisis riguroso determinan si la operación cuenta con una justificación legítima o si debe ser escalada al siguiente nivel de control dentro del sistema SARLAFT.
         .bt02.p-4
           p.mb-0 Cuando el proceso de verificación no logra justificar adecuadamente el origen o la finalidad de los recursos involucrados en una operación inusual, esta adquiere una condición de mayor gravedad dentro del sistema de monitoreo. Este es el punto de partida de las operaciones sospechosas, cuyas características, criterios de identificación y obligaciones de reporte se desarrollan en el siguiente apartado.
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema2/img24.png', width='180', alt='Texto que describa la imagen')
     separador
@@ -259,7 +259,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Figure 2.
+          h5 Figura 2.
           span ¿Es la operación sospechosa o inusual?
     .row.justify-content-center.mb-4
       .col-lg-10
@@ -267,10 +267,10 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema2/img27.svg', alt='Infografía de matriz RACI')
+                img(src='@/assets/curso/temas/tema2/img27.svg', alt='Figura comparativa titulada  ¿Es la operación sospechosa o inusual?. A la izquierda, una flecha roja identifica la operación sospechosa con la descripción: no puede ser justificada adecuadamente y puede estar relacionada con actividades ilícitas. A la derecha, una flecha azul identifica la operación inusual con la descripción: se aparta del comportamiento habitual del cliente pero puede ser justificada.')
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/temas/tema2/img27_1.svg', alt='Matriz RACI para dispositivos móviles')
+            img(src='@/assets/curso/temas/tema2/img27_1.svg', alt='Figura comparativa titulada  ¿Es la operación sospechosa o inusual?. A la izquierda, una flecha roja identifica la operación sospechosa con la descripción: no puede ser justificada adecuadamente y puede estar relacionada con actividades ilícitas. A la derecha, una flecha azul identifica la operación inusual con la descripción: se aparta del comportamiento habitual del cliente pero puede ser justificada.')
     .row.align-items-center.mb-4
       .col-lg-1.d-none.d-lg-block
         figure
@@ -295,31 +295,31 @@
           .tarjeta.bt06.p-4
             .row.justify-content-center.align-items-center
               .col-lg-9.order-2.order-lg-1
-                ol.lista-ol--cuadro.mb-0
+                ul.lista-ul
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Transacciones que no tienen una justificación económica o legal clara.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Transacciones que no tienen una justificación económica o legal clara.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Movimientos de grandes sumas de dinero sin relación con la actividad económica del cliente.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Movimientos de grandes sumas de dinero sin relación con la actividad económica del cliente.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Operaciones realizadas con el objetivo aparente de evitar controles o reportes regulatorios.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Operaciones realizadas con el objetivo aparente de evitar controles o reportes regulatorios.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Transferencias frecuentes entre cuentas con el propósito de ocultar el origen de los recursos.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Transferencias frecuentes entre cuentas con el propósito de ocultar el origen de los recursos.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Uso de intermediarios o terceros sin una razón clara para realizar transacciones financieras.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Uso de intermediarios o terceros sin una razón clara para realizar transacciones financieras.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Movimientos financieros vinculados con personas o entidades investigadas por actividades ilícitas.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Movimientos financieros vinculados con personas o entidades investigadas por actividades ilícitas.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Depósitos o retiros de grandes cantidades de dinero en efectivo sin explicación válida.
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Depósitos o retiros de grandes cantidades de dinero en efectivo sin explicación válida.
                   li
-                  i.fas.fa-lock(style="color: #CFDE90;")
-                  |  Operaciones que presentan estructuras complejas destinadas a dificultar el seguimiento del dinero.                  
+                    i.fas.fa-lock(style="color: #CFDE90;")
+                    |  Operaciones que presentan estructuras complejas destinadas a dificultar el seguimiento del dinero.                  
               .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
                 figure
                   img(src='@/assets/curso/temas/tema2/img30.png', alt='Texto que describa la imagen')
@@ -365,7 +365,7 @@
               img(src='@/assets/curso/temas/intro/img3.svg', style="width:150px", alt='Texto que describa la imagen')
     p.mb-4 Entre algunas de las principales señales de alerta en las transacciones financieras se encuentran las siguientes:
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-7.order-1.order-lg-2
+      .col-lg-7.order-2.order-lg-1
         LineaTiempoD.color-acento-botones
           .row(numero="1" titulo="Movimientos inconsistentes con el perfil")
             p.mb-0 transacciones cuyo monto u origen no corresponden con la actividad económica declarada por el cliente. Ejemplo: depósitos diarios en efectivo por parte de un cliente que declaró ser empleado con ingresos fijos mensuales. 
@@ -385,7 +385,7 @@
             p.mb-0 liquidación prematura de productos financieros sin justificación económica clara, especialmente cuando implica pérdidas para el cliente. Ejemplo: cancelación anticipada de un CDT asumiendo penalidades, sin una razón financiera que lo sustente. 
           .row(numero="9" titulo="Estructuras financieras complejas")
             p.mb-0  operaciones que involucran múltiples instrumentos, cuentas o entidades sin una justificación económica clara, orientadas a dificultar el seguimiento del dinero. Ejemplo: recursos que transitan por cuatro cuentas en distintas entidades antes de llegar a su destino final sin propósito comercial evidente.
-      .col-lg-3.col-8.mb-4.mb-lg-0.order-2.order-lg-1
+      .col-lg-3.col-6.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema2/img36.png', alt='')
     .row.align-items-center.mb-4

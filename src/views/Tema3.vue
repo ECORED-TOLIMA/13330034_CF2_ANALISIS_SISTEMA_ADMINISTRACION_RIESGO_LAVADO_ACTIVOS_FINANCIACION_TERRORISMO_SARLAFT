@@ -269,7 +269,7 @@
             
             .tarjeta.tarjeta.bt01.p-3(x="83%" y="75%" numero="+")
               p Posible ocultamiento del origen de los recursos.
-        .d-block.d-lg-none
+        .d-block.d-lg-none.mb-4
           figure
             img(src='@/assets/curso/temas/tema3/img26_1.svg', alt='Matriz RACI para dispositivos móviles')
         p La representación anterior permite comprender cómo la división de un monto elevado en múltiples transacciones puede dificultar la detección de patrones inusuales. Este tipo de comportamiento requiere la implementación de mecanismos de monitoreo que faciliten la identificación de operaciones repetitivas o atípicas en un periodo determinado.     
@@ -281,7 +281,7 @@
               p.text-center.mb-0 Los sistemas de control permiten analizar la frecuencia, el monto y la naturaleza de las operaciones para identificar aquellas que deben ser objeto de reporte.
     p.mb-4 Entre algunos ejemplos de situaciones que pueden generar un reporte de operaciones múltiples se encuentran los siguientes:
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-9
+      .col-lg-9.order-2.order-lg-1
         .tarjeta.bt06.p-4
             ul.lista-ul
               li
@@ -306,7 +306,7 @@
                 i.fas.fa-lock(style="color: #CFDE90;")
                 | Uso de múltiples cuentas para movilizar recursos de manera fraccionada.
     
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema3/img28.svg', alt='Matriz RACI para dispositivos móviles')
     p Las situaciones descritas permiten identificar patrones de comportamiento asociados a la realización de múltiples transacciones en un periodo determinado. Estos comportamientos facilitan el reconocimiento de operaciones que pueden requerir análisis y seguimiento por parte de las entidades, con el fin de evaluar su coherencia frente al perfil del cliente.

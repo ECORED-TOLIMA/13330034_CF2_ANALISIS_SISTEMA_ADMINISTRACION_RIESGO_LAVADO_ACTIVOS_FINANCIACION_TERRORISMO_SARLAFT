@@ -10,7 +10,7 @@
     .BGINTRO01.px-5.mb-4
       p.mb-4 El sistema de administración del riesgo de lavado de activos y financiación del terrorismo (SARLAFT) requiere no solo el conocimiento de sus fundamentos, sino también la aplicación práctica de sus procedimientos dentro de las organizaciones. En este contexto, las entidades deben implementar mecanismos que permitan identificar, analizar y controlar las operaciones financieras con el fin de prevenir que sus servicios sean utilizados para actividades ilícitas.
       .row.justify-content-center
-        .col-lg-9
+        .col-lg-9.order-2.order-lg-1
           .row.align-items-center.mb-4
             .col-lg-auto.d-none.d-lg-block
               figure
@@ -24,7 +24,7 @@
                   img(src='@/assets/curso/temas/intro/img2.svg',style="width:100px", alt='')
               .col-lg-10
                 p.mb-0 El desarrollo de los contenidos se realiza mediante un enfoque normativo y procedimental que permite comprender las consecuencias del incumplimiento de la normativa, analizar las funciones de los organismos de control y reconocer la importancia de la gestión documental y la protección de la información dentro de las organizaciones. De esta manera, se busca que el aprendiz adquiera capacidades para identificar situaciones de riesgo, aplicar los mecanismos de prevención establecidos por el sistema SARLAFT y cumplir con las disposiciones orientadas a garantizar la seguridad, la legalidad y la transparencia en las actividades financieras y empresariales.
-        .col-lg-3.col-10.mb-4.mb-lg-0
+        .col-lg-3.mb-4.mb-lg-0.col-10.order-1.order-lg-2
           figure
             img(src='@/assets/curso/temas/intro/img1.png', alt='')
         
